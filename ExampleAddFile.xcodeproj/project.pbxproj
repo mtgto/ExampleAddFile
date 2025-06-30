@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE0EDAA22E12B69A00F96F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0EDA9C2E12B69A00F96F9A /* Assets.xcassets */; };
+		CE0EDAA32E12B69A00F96F9A /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EDA9D2E12B69A00F96F9A /* Calc.swift */; };
+		CE0EDAA42E12B69A00F96F9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EDA9E2E12B69A00F96F9A /* ContentView.swift */; };
+		CE0EDAA52E12B69A00F96F9A /* ExampleAddFileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EDAA02E12B69A00F96F9A /* ExampleAddFileApp.swift */; };
+		CE0EDAA82E12B69D00F96F9A /* ExampleAddFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EDAA62E12B69D00F96F9A /* ExampleAddFileTests.swift */; };
+		CE0EDAAC2E12B6A000F96F9A /* ExampleAddFileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EDAA92E12B6A000F96F9A /* ExampleAddFileUITests.swift */; };
+		CE0EDAAD2E12B6A000F96F9A /* ExampleAddFileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0EDAAA2E12B6A000F96F9A /* ExampleAddFileUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CE0EDA492E12AE4200F96F9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +37,15 @@
 		CE0EDA3A2E12AE4000F96F9A /* ExampleAddFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleAddFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0EDA482E12AE4200F96F9A /* ExampleAddFileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAddFileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0EDA522E12AE4200F96F9A /* ExampleAddFileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAddFileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0EDA9C2E12B69A00F96F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE0EDA9D2E12B69A00F96F9A /* Calc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
+		CE0EDA9E2E12B69A00F96F9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE0EDA9F2E12B69A00F96F9A /* ExampleAddFile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExampleAddFile.entitlements; sourceTree = "<group>"; };
+		CE0EDAA02E12B69A00F96F9A /* ExampleAddFileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAddFileApp.swift; sourceTree = "<group>"; };
+		CE0EDAA62E12B69D00F96F9A /* ExampleAddFileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAddFileTests.swift; sourceTree = "<group>"; };
+		CE0EDAA92E12B6A000F96F9A /* ExampleAddFileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAddFileUITests.swift; sourceTree = "<group>"; };
+		CE0EDAAA2E12B6A000F96F9A /* ExampleAddFileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAddFileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CE0EDA3C2E12AE4000F96F9A /* ExampleAddFile */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ExampleAddFile;
-			sourceTree = "<group>";
-		};
-		CE0EDA4B2E12AE4200F96F9A /* ExampleAddFileTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ExampleAddFileTests;
-			sourceTree = "<group>";
-		};
-		CE0EDA552E12AE4200F96F9A /* ExampleAddFileUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ExampleAddFileUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CE0EDA372E12AE4000F96F9A /* Frameworks */ = {
@@ -75,9 +75,9 @@
 		CE0EDA312E12AE4000F96F9A = {
 			isa = PBXGroup;
 			children = (
-				CE0EDA3C2E12AE4000F96F9A /* ExampleAddFile */,
-				CE0EDA4B2E12AE4200F96F9A /* ExampleAddFileTests */,
-				CE0EDA552E12AE4200F96F9A /* ExampleAddFileUITests */,
+				CE0EDAA12E12B69A00F96F9A /* ExampleAddFile */,
+				CE0EDAA72E12B69D00F96F9A /* ExampleAddFileTests */,
+				CE0EDAAB2E12B6A000F96F9A /* ExampleAddFileUITests */,
 				CE0EDA3B2E12AE4000F96F9A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +90,35 @@
 				CE0EDA522E12AE4200F96F9A /* ExampleAddFileUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CE0EDAA12E12B69A00F96F9A /* ExampleAddFile */ = {
+			isa = PBXGroup;
+			children = (
+				CE0EDA9C2E12B69A00F96F9A /* Assets.xcassets */,
+				CE0EDA9D2E12B69A00F96F9A /* Calc.swift */,
+				CE0EDA9E2E12B69A00F96F9A /* ContentView.swift */,
+				CE0EDA9F2E12B69A00F96F9A /* ExampleAddFile.entitlements */,
+				CE0EDAA02E12B69A00F96F9A /* ExampleAddFileApp.swift */,
+			);
+			path = ExampleAddFile;
+			sourceTree = "<group>";
+		};
+		CE0EDAA72E12B69D00F96F9A /* ExampleAddFileTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE0EDAA62E12B69D00F96F9A /* ExampleAddFileTests.swift */,
+			);
+			path = ExampleAddFileTests;
+			sourceTree = "<group>";
+		};
+		CE0EDAAB2E12B6A000F96F9A /* ExampleAddFileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE0EDAA92E12B6A000F96F9A /* ExampleAddFileUITests.swift */,
+				CE0EDAAA2E12B6A000F96F9A /* ExampleAddFileUITestsLaunchTests.swift */,
+			);
+			path = ExampleAddFileUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +135,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CE0EDA3C2E12AE4000F96F9A /* ExampleAddFile */,
 			);
 			name = ExampleAddFile;
 			packageProductDependencies = (
@@ -130,9 +156,6 @@
 			dependencies = (
 				CE0EDA4A2E12AE4200F96F9A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CE0EDA4B2E12AE4200F96F9A /* ExampleAddFileTests */,
-			);
 			name = ExampleAddFileTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +175,6 @@
 			);
 			dependencies = (
 				CE0EDA542E12AE4200F96F9A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CE0EDA552E12AE4200F96F9A /* ExampleAddFileUITests */,
 			);
 			name = ExampleAddFileUITests;
 			packageProductDependencies = (
@@ -212,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0EDAA22E12B69A00F96F9A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0EDAA32E12B69A00F96F9A /* Calc.swift in Sources */,
+				CE0EDAA42E12B69A00F96F9A /* ContentView.swift in Sources */,
+				CE0EDAA52E12B69A00F96F9A /* ExampleAddFileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0EDAA82E12B69D00F96F9A /* ExampleAddFileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0EDAAC2E12B6A000F96F9A /* ExampleAddFileUITests.swift in Sources */,
+				CE0EDAAD2E12B6A000F96F9A /* ExampleAddFileUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
