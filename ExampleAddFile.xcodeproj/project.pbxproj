@@ -47,6 +47,14 @@
 		CE0EDAAA2E12B6A000F96F9A /* ExampleAddFileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAddFileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CE0EDAB02E12C04B00F96F9A /* SubFolder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SubFolder;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		CE0EDA372E12AE4000F96F9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -107,6 +115,7 @@
 		CE0EDAA72E12B69D00F96F9A /* ExampleAddFileTests */ = {
 			isa = PBXGroup;
 			children = (
+				CE0EDAB02E12C04B00F96F9A /* SubFolder */,
 				CE0EDAA62E12B69D00F96F9A /* ExampleAddFileTests.swift */,
 			);
 			path = ExampleAddFileTests;
@@ -155,6 +164,9 @@
 			);
 			dependencies = (
 				CE0EDA4A2E12AE4200F96F9A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CE0EDAB02E12C04B00F96F9A /* SubFolder */,
 			);
 			name = ExampleAddFileTests;
 			packageProductDependencies = (
